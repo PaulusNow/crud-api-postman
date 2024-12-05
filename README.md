@@ -15,6 +15,7 @@ Buatlah sebuah file baru dengan nama aplikasi, misalnya `app.js`, di folder pili
 Buka terminal di folder aplikasi yang baru saja Anda buat, kemudian jalankan perintah berikut untuk menginisialisasi proyek Node.js:
 ```bash
 npm init
+```
 
 Ikuti petunjuk di terminal untuk menyelesaikan inisialisasi.
 
@@ -22,6 +23,7 @@ Ikuti petunjuk di terminal untuk menyelesaikan inisialisasi.
 ```bash
 npm install body-parser
 npm install --save-dev nodemon
+```
 
 body-parser digunakan untuk memparsing data JSON dari request body.
 nodemon digunakan untuk menjalankan aplikasi secara otomatis setiap kali ada perubahan pada file.
@@ -30,6 +32,7 @@ nodemon digunakan untuk menjalankan aplikasi secara otomatis setiap kali ada per
 Untuk menjalankan server, Anda dapat menggunakan nodemon agar server secara otomatis restart ketika ada perubahan pada file. Jalankan perintah berikut di terminal:
 ```bash
 npx nodemon app.js
+```
 
 ### 6. Uji API di Postman
 Buka aplikasi Postman dan masukkan URL berikut untuk mencoba API:
