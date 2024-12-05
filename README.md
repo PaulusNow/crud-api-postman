@@ -5,14 +5,14 @@ Aplikasi ini adalah contoh sederhana penerapan API yang berbasis Node.js menggun
 ## Langkah-langkah Penginstalan
 
 ### 1. Instal Node.js
-Pastikan Anda telah menginstal Node.js versi terbaru. Anda bisa mengunduhnya di situs resmi Node.js:
+Pastikan Node.js sudah terinstal pada versi terbaru. Jika belum terinstal bisa mengunduhnya di situs resmi Node.js:
 [Download Node.js](https://nodejs.org/)
 
 ### 2. Buat File Aplikasi
-Buatlah sebuah file baru dengan nama aplikasi, misalnya `app.js`, di folder pilihan Anda.
+Buat folder baru dengan nama aplikasi di dalamnya, misalnya `app.js`.
 
 ### 3. Inisialisasi Proyek
-Buka terminal di folder aplikasi yang baru saja Anda buat, kemudian jalankan perintah berikut untuk menginisialisasi proyek Node.js:
+Buka terminal di folder yang sudah dibuat, kemudian jalankan perintah ini untuk menginisialisasi proyek Node.js:
 ```bash
 npm init
 ```
@@ -29,12 +29,12 @@ body-parser digunakan untuk memparsing data JSON dari request body.
 nodemon digunakan untuk menjalankan aplikasi secara otomatis setiap kali ada perubahan pada file.
 
 ### 5. Jalankan Server dengan Nodemon
-Untuk menjalankan server, Anda dapat menggunakan nodemon agar server secara otomatis restart ketika ada perubahan pada file. Jalankan perintah berikut di terminal:
+Untuk menjalankan server, jalankan ini ke dalam terminal:
 ```bash
 npx nodemon app.js
 ```
 
 ### 6. Uji API di Postman
-Buka aplikasi Postman dan masukkan URL berikut untuk mencoba API:
+Buka aplikasi Postman dan masukkan URL untuk mencoba API:
 ```bash
 http://localhost:3000/url_yang ada di dalam code
